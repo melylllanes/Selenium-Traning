@@ -6,23 +6,26 @@ public class Ejercicio6 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter de weight in pounds: ");
-        float pounds = input.nextFloat();
+        System.out.print(" Primer numero: ");
+        int num1 = input.nextInt();
 
-        System.out.println("Please enter de weight in inches: ");
-        float inches = input.nextFloat();
+        System.out.print(" Segundo numero: ");
+        int num2 = input.nextInt();
 
-        double KG = ( pounds * 0.453592);
-        double M = ( inches * 0.0254);
+        int suma = num1 + num2;
+        int mult = num1 * num2;
+        int div = num1 / num2;
+        int rest = num1 - num2;
+        int mod = num1 % num2;
 
-        double BMI = KG / Math.pow(M,2);
 
-        System.out.println(" The Body Mass Index is: " + BMI);
-
-
+        System.out.println(" La suma de  los dos numero es: " + suma);
+        System.out.println(" La multiplicacion de  los dos numero es: " + mult);
+        System.out.println(" La division de  los dos numero es: " + div);
+        System.out.println(" La resta de  los dos numero es: " + rest);
+        System.out.println(" El mod de  los dos numero es: " + mod);
 
 
 
     }
-
 }

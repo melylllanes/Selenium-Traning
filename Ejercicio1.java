@@ -4,14 +4,17 @@ public class Ejercicio1 {
 
     public static void main(String[] args) {
 
+
         Scanner input = new Scanner(System.in);
 
-        System.out.println(" What is the temperature in Fahrenheit: ");
-        float F = input.nextFloat();
+        System.out.print("Whats your name? ");
 
-        double C = (F - 32) / 1.8;
+        String myName = input.nextLine();
 
-        System.out.println(" The temperature in Celsius is: " + C);
+        System.out.println("Hello " + myName);
+
+
+
     }
 
-}
+    }

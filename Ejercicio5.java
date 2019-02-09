@@ -1,25 +1,22 @@
-import java.time.LocalTime;
-
-
-
+import java.util.Scanner;
 
 public class Ejercicio5 {
 
+
     public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
 
-        LocalTime zone1 = LocalTime.now();
+        System.out.print(" Primer numero: ");
+        int num1 = input.nextInt();
 
-        System.out.println("Mexico time "+ (zone1));
+        System.out.print(" Segundo numero: ");
+        int num2 = input.nextInt();
 
+        int result = num1 + num2;
 
-        LocalTime nextTime = LocalTime.now().plusHours(6);
-
-        System.out.println("GMT time "+ (nextTime ));
+        System.out.println(" La suma de  los dos numero es: " + result);
 
     }
 
-
-    }
-
-
+}

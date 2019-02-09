@@ -4,17 +4,19 @@ public class Ejercicio2 {
 
     public static void main(String[] args) {
 
-
         Scanner input = new Scanner(System.in);
 
-        System.out.println(" What is the value in inches: ");
-        float inches = input.nextFloat();
+        System.out.println("Enter the first number: ");
+        int A = input.nextInt();
 
-        double meters = inches * 0.0254;
 
-        System.out.println(" The value in meters is: " + meters);
+        System.out.println("Enter the second number: ");
+        int B = input.nextInt();
 
+        int result = A + B;
+
+        System.out.println("The sum of two number is: " + result);
 
     }
 
-}
+    }
