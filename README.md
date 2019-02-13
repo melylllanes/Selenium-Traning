@@ -1,3 +1,3 @@
-# Selenium-Traning exercises
+# Selenium-Training exercises
 
 1. JavaCore
